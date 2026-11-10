@@ -1,4 +1,4 @@
-﻿#🔴RADIAÇÃO INFRAVERMELHA
+﻿# RADIAÇÃO INFRAVERMELHA
 ### Ciência, tecnologia e aplicações no cotidiano
 
 ---
