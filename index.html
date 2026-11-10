@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Radiação Infravermelha | Prof. Ederson</title>
+  <!-- Google Fonts & Font Awesome Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVEGAÇÃO -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="brand">
+        <i class="fa-solid fa-wave-square"></i> Infra<span>Red</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#historia">História</a></li>
+        <li><a href="#cientista">Cientista</a></li>
+        <li><a href="#ondas">Características</a></li>
+        <li><a href="#tecnologia">Tecnologia</a></li>
+        <li><a href="#saude">Saúde</a></li>
+        <li><a href="#professor" class="btn-prof">Prof. Ederson</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION / INÍCIO -->
+  <header id="hero" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <span class="badge">Física & Espectro Eletromagnético</span>
+      <h1>Radiação Infravermelha</h1>
+      <p>Explorando a energia invisível que aquece o universo, suas aplicações tecnológicas, na saúde e o legado do seu descobrimento.</p>
+      
+      <div class="quick-nav">
+        <a href="#historia" class="card-link"><i class="fa-solid fa-hourglass-start"></i> História</a>
+        <a href="#cientista" class="card-link"><i class="fa-solid fa-user-astronaut"></i> William Herschel</a>
+        <a href="#ondas" class="card-link"><i class="fa-solid fa-chart-line"></i> Ondas & Física</a>
+        <a href="#tecnologia" class="card-link"><i class="fa-solid fa-microchip"></i> Tecnologias</a>
+        <a href="#saude" class="card-link"><i class="fa-solid fa-heart-pulse"></i> Medicina & Saúde</a>
+        <a href="#professor" class="card-link highlight"><i class="fa-solid fa-chalkboard-user"></i> Prof. Ederson</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- HISTÓRIA DO RAIO -->
+    <section id="historia" class="section">
+      <div class="section-header">
+        <h2><i class="fa-solid fa-book-open"></i> A História do Infravermelho</h2>
+        <div class="line"></div>
+      </div>
+      <div class="grid-2">
+        <div class="text-block">
+          <p>Em 1800, a luz visível já era compreendida através da decomposição pelo prisma em cores do arco-íris. No entanto, o astrônomo e músico <strong>William Herschel</strong> decidiu medir a quantidade de calor transportada por cada cor da luz solar.</p>
+          <p>Usando termômetros com bulbos escurecidos, Herschel mediu as temperaturas do violeta ao vermelho. Ao posicionar um termômetro de controle <em>além do limite da luz vermelha visível</em>, notou algo impressionante: aquele local registrou a maior temperatura de todas.</p>
+          <div class="callout">
+            <i class="fa-solid fa-quote-left"></i>
+            <p>Herschel havia descoberto uma forma de luz completamente invisível aos olhos humanos, batizada inicialmente de "raios calóricos" e mais tarde de <strong>Infravermelho</strong> (do latim <em>infra</em>, "abaixo do vermelho").</p>
+          </div>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <span class="year">1800</span>
+            <h4>Experimento do Prisma</h4>
+            <p>Herschel descobre radiação invisível além da frequência da cor vermelha.</p>
+          </div>
+          <div class="timeline-item">
+            <span class="year">1880</span>
+            <h4>Invenção do Bolômetro</h4>
+            <p>Samuel Pierpont Langley desenvolve o bolômetro para medir radiação térmica com altíssima precisão.</p>
+          </div>
+          <div class="timeline-item">
+            <span class="year">Século XX</span>
+            <h4>Visão Noturna & Medicina</h4>
+            <p>Desenvolvimento das primeiras câmeras térmicas e sensores militares/médicos.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CIENTISTA E BIOGRAFIA -->
+    <section id="cientista" class="section alt-bg">
+      <div class="section-header">
+        <h2><i class="fa-solid fa-user-gear"></i> Cientista & Biografia</h2>
+        <div class="line"></div>
+      </div>
+      <div class="profile-card">
+        <div class="profile-img">
+          <img src="Imagens/herschel.jpg" alt="William Herschel" onerror="this.src='https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=600&auto=format&fit=crop'">
+        </div>
+        <div class="profile-info">
+          <h3>Sir William Herschel <span class="dates">(1738 – 1822)</span></h3>
+          <p class="subtitle">Astrônomo e Compositor Germânico-Britânico</p>
+          <ul class="bio-list">
+            <li><i class="fa-solid fa-check"></i> <strong>Descoberta do Planeta Urano:</strong> Ficou mundialmente famoso em 1781 por identificar o planeta Urano e duas de suas luas.</li>
+            <li><i class="fa-solid fa-check"></i> <strong>Pioneiro do Infravermelho:</strong> Provou experimentalmente que calor pode se propagar na forma de luz invisível.</li>
+            <li><i class="fa-solid fa-check"></i> <strong>Construção de Telescópios:</strong> Fabricou manualmente os maiores e mais precisos telescópios de refletor de sua época.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CARACTERÍSTICAS DA ONDA -->
+    <section id="ondas" class="section">
+      <div class="section-header">
+        <h2><i class="fa-solid fa-bolt"></i> Características Físicas da Onda</h2>
+        <div class="line"></div>
+      </div>
+      <div class="grid-3">
+        <div class="card">
+          <i class="fa-solid fa-ruler-horizontal card-icon"></i>
+          <h3>Comprimento de Onda ($\lambda$)</h3>
+          <p>Varia entre <strong>700 nm a 1 mm</strong>. Fica situado entre a luz vermelha visível e as micro-ondas.</p>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-wave-square card-icon"></i>
+          <h3>Frequência ($f$)</h3>
+          <p>Compreendida entre <strong>300 GHz e 430 THz</strong>. Inversamente proporcional ao comprimento de onda.</p>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-temperature-high card-icon"></i>
+          <h3>Radiação Térmica</h3>
+          <p>Todos os corpos com temperatura acima do zero absoluto (0 K ou -273,15 °C) emitem radiação infravermelha.</p>
+        </div>
+      </div>
+
+      <!-- SIMULADOR INTERATIVO -->
+      <div class="interactive-box">
+        <h3>Calculadora Interativa da Onda ($c = \lambda \cdot f$)</h3>
+        <p>Ajuste a frequência para observar a alteração estimada no comprimento de onda no vácuo ($c \approx 3 \times 10^8 \text{ m/s}$):</p>
+        <div class="calculator">
+          <label for="freqInput">Frequência (em Terahertz - THz):</label>
+          <input type="range" id="freqInput" min="1" max="430" value="200">
+          <div class="calc-output">
+            <p>Frequência Selecionada: <strong id="freqVal">200 THz</strong></p>
+            <p>Comprimento de Onda estimado ($\lambda$): <strong id="waveVal">1.5 µm</strong></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- APLICAÇÕES TECNOLÓGICAS -->
+    <section id="tecnologia" class="section alt-bg">
+      <div class="section-header">
+        <h2><i class="fa-solid fa-laptop-code"></i> Aplicações Tecnológicas</h2>
+        <div class="line"></div>
+      </div>
+      <div class="grid-2">
+        <div class="card feature-card">
+          <i class="fa-solid fa-eye card-icon"></i>
+          <h3>Termografia & Câmeras Térmicas</h3>
+          <p>Utilizadas em inspeções elétricas, auditorias de isolamento térmico e por forças de segurança para visão noturna mapeando o calor emitido por alvos.</p>
+        </div>
+        <div class="card feature-card">
+          <i class="fa-solid fa-tower-broadcast card-icon"></i>
+          <h3>Controles Remotos & Fibra Óptica</h3>
+          <p>Sinais de infravermelho de curto alcance transmitem comandos para TVs, aparelhos de som e trafegam dados em redes de fibra óptica sem sofrer interferência de luz visível.</p>
+        </div>
+        <div class="card feature-card">
+          <i class="fa-solid fa-satellite-dish card-icon"></i>
+          <h3>Astronomia (Telescópio James Webb)</h3>
+          <p>O infravermelho atravessa nuvens de poeira cósmica espessas, permitindo que astrônomos observem as primeiras galáxias formadas após o Big Bang.</p>
+        </div>
+        <div class="card feature-card">
+          <i class="fa-solid fa-barcode card-icon"></i>
+          <h3>Sensores Industriais & Leitores</h3>
+          <p>Sensores de presença, leitores de código de barra e sistemas de automação usam feixes infravermelhos para detecção e contagem de itens.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- APLICAÇÕES NA SAÚDE -->
+    <section id="saude" class="section">
+      <div class="section-header">
+        <h2><i class="fa-solid fa-briefcase-medical"></i> Aplicações na Saúde</h2>
+        <div class="line"></div>
+      </div>
+      <div class="grid-3">
+        <div class="card">
+          <i class="fa-solid fa-notes-medical card-icon"></i>
+          <h3>Fisioterapia Térmica</h3>
+          <p>Lâmpadas de infravermelho penetram nos tecidos profundos, promovendo vasodilatação, alívio de dores musculares e aceleração da recuperação articular.</p>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-thermometer-three-quarters card-icon"></i>
+          <h3>Termômetros Clínicos sem Contato</h3>
+          <p>Essenciais para medições corporais rápidas e higiênicas através da detecção do fluxo de calor emitido pela artéria temporal ou testa.</p>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-heart-circle-check card-icon"></i>
+          <h3>Oxímetros de Pulso</h3>
+          <p>Dispositivos de dedo medem a saturação de oxigênio no sangue analisando como a hemoglobina absorve luzes vermelhas e infravermelhas.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROFESSOR E ORIENTADOR -->
+    <section id="professor" class="section alt-bg">
+      <div class="section-header">
+        <h2><i class="fa-solid fa-graduation-cap"></i> Orientador do Projeto</h2>
+        <div class="line"></div>
+      </div>
+      
+      <div class="teacher-container">
+        <div class="teacher-main-card">
+          <img src="Imagens/professor-ederson.jpg" alt="Professor Ederson" class="teacher-photo" onerror="this.src='https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop'">
+          <div class="teacher-details">
+            <h3>Prof. Ederson</h3>
+            <p class="teacher-role">Docente de Física</p>
+            <p>Projeto educacional desenvolvido para aprofundamento prático nos conceitos do Espectro Eletromagnético, com foco na Radiação Infravermelha e suas contribuições na tecnologia e medicina moderna.</p>
+          </div>
+        </div>
+
+        <!-- Galeria do Professor / Orientador -->
+        <h4 class="gallery-title">Galeria de Aulas & Laboratório</h4>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="./Imagens/derso1.jpg" alt="Foto da Aula">
+          </div>
+          <div class="gallery-item">
+            <img src="Imagens/aula-2.jpg" alt="Experimento Físico" onerror="this.src='https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=500&auto=format&fit=crop'">
+          </div>
+          <div class="gallery-item">
+            <img src="Imagens/aula-3.jpg" alt="Orientação Acadêmica" onerror="this.src='https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=500&auto=format&fit=crop'">
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
