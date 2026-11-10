@@ -1,4 +1,3 @@
-/* RESET E VARIÁVEIS DE CORES TÉRMICAS */
 :root {
   --bg-dark: #0f0b12;
   --bg-card: #18121e;
@@ -28,7 +27,6 @@ h1, h2, h3, h4, .brand {
   font-family: 'Space Grotesk', sans-serif;
 }
 
-/* NAVBAR */
 .navbar {
   position: fixed;
   top: 0;
@@ -86,7 +84,6 @@ h1, h2, h3, h4, .brand {
   font-weight: 600;
 }
 
-/* HERO SECTION */
 .hero {
   position: relative;
   min-height: 85vh;
@@ -157,7 +154,6 @@ h1, h2, h3, h4, .brand {
   color: var(--primary-orange);
 }
 
-/* SEÇÕES GERAIS */
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -198,7 +194,6 @@ h1, h2, h3, h4, .brand {
   border-radius: 2px;
 }
 
-/* GRIDS */
 .grid-2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -211,7 +206,6 @@ h1, h2, h3, h4, .brand {
   gap: 1.5rem;
 }
 
-/* CARDS */
 .card {
   background-color: var(--bg-card);
   border: 1px solid var(--border);
@@ -241,7 +235,6 @@ h1, h2, h3, h4, .brand {
   font-size: 0.95rem;
 }
 
-/* HISTÓRIA E LINHA DO TEMPO */
 .callout {
   background-color: rgba(255, 42, 95, 0.08);
   border-left: 4px solid var(--primary);
@@ -284,7 +277,6 @@ h1, h2, h3, h4, .brand {
   font-size: 0.9rem;
 }
 
-/* PERFIL DE CIENTISTA */
 .profile-card {
   display: flex;
   flex-wrap: wrap;
@@ -328,7 +320,6 @@ h1, h2, h3, h4, .brand {
   margin-right: 0.5rem;
 }
 
-/* SIMULADOR DE ONDA */
 .interactive-box {
   background-color: var(--bg-card);
   border: 1px solid var(--border);
@@ -360,7 +351,6 @@ h1, h2, h3, h4, .brand {
   color: var(--primary-orange);
 }
 
-/* ORIENTADOR E GALERIA */
 .teacher-main-card {
   display: flex;
   gap: 2rem;
@@ -411,10 +401,9 @@ h1, h2, h3, h4, .brand {
   border-color: var(--primary-orange);
 }
 
-/* RESPONSIVIDADE */
 @media (max-width: 768px) {
   .nav-links {
-    display: none; /* Simplificado para telas menores */
+    display: none; 
   }
   
   .hero h1 {
