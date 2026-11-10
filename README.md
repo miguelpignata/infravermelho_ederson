@@ -38,8 +38,8 @@ O desenvolvimento foi realizado utilizando tecnologias fundamentais para a const
 
 | Tecnologia | Aplicação |
 |---|---|
-| HTML5 | Estruturação e organização do conteúdo. |
-| CSS3 | Estilização, identidade visual e layout. |
+| HTML | Estruturação e organização do conteúdo. |
+| CSS | Estilização, identidade visual e layout. |
 | JavaScript | Implementação de funcionalidades interativas. |
 
 ## Estrutura do projeto
